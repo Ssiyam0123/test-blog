@@ -180,8 +180,8 @@ export const featurePost = async (req, res) => {
 
 const imagekit = new ImageKit({
   urlEndpoint: "https://ik.imagekit.io/4pigi9okn/",
-  publicKey: 'public_5Tg1BEO5DyHQc12+/MOPkLJGUhA=',
-  privateKey: 'private_Fzrh318XlX2QKgWOlka8URxU6mA=',
+  publicKey: "public_5Tg1BEO5DyHQc12+/MOPkLJGUhA=",
+  privateKey: "private_Fzrh318XlX2QKgWOlka8URxU6mA=",
 });
 // const imagekit = new ImageKit({
 //   urlEndpoint: process.env.IK_URL_ENDPOINT,
